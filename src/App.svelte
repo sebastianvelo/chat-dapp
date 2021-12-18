@@ -3,7 +3,7 @@
   import View from "./components/views/View.svelte";
 </script>
 
-<main class="bg-black flex flex-col md:flex-row items-center justify-center min-h-screen">
+<main class="bg-gray-900 flex flex-col md:flex-row items-center justify-center min-h-screen">
   <Sidebar />
   <View />
 </main>

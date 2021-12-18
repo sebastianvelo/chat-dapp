@@ -15,7 +15,7 @@
 
 <input
     autocomplete="off"
-    class="text-white px-4 focus:border-none focus:outline-none bg-green-500 focus:bg-blue-900 transition-all duration-500 w-full"
+    class="text-white px-4 focus:border-none focus:outline-none bg-blue-700 focus:bg-blue-900 transition-all duration-500 w-full"
     {name}
     use:typeAction
     bind:value

@@ -5,7 +5,7 @@
     import { username, getMessage } from "../../../utils/GunUserUtils";
     import { chats } from "../../../utils/GunMessageUtils";
 
-    const className = "bg-gray-900 w-full h-screen flex flex-col";
+    const className = "bg-gray-900 w-full h-screen flex flex-col justify-between";
     let newMessage;
     let messages = [];
 
