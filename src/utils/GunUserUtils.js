@@ -43,10 +43,8 @@ export const signup = (username, password) => {
 const getUserAlias = async (data) => await db.user(data).get("alias");
 const getDecryptedMessage = async (data, key) => (await SEA.decrypt(data.what, key)) + "";
 const getMessageTimestamp = (data) => GUN.state.is(data, "what");
-export const getMessage = async (data, key) => {
-    return {
-        who: await getUserAlias(data),
-        what: await getDecryptedMessage(data, key),
-        when: getMessageTimestamp(data),
-    }
-};
+export const getMessage = async (data, key) => ({
+    who: await getUserAlias(data),
+    what: await getDecryptedMessage(data, key),
+    when: getMessageTimestamp(data),
+});

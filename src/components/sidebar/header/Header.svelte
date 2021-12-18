@@ -3,8 +3,7 @@
     import Button from "../../atom/Button.svelte";
     import { username, signout } from "../../../utils/GunUserUtils";
 
-    const className =
-        "bg-blue-900 text-white py-3 w-full";
+    const className = "text-white py-3 w-full";
 </script>
 
 <header class={className}>
