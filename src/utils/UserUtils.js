@@ -1,0 +1,1 @@
+export const getAvatar = (username) => `https://avatars.dicebear.com/api/adventurer-neutral/${username}.svg`;
